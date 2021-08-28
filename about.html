@@ -8,78 +8,263 @@
     <title>Acerca</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos/estilopersonal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
 </head>
 
-<body>
+<body class="p-3 mb-2 bg-primary text-white">
 
-    <header class="clase_h">
-        <h1>Acerca del Autor</h1>
+    <header>
+        <h1 class="text-center">Acerca del Autor</h1>
     </header>
 
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="about.html">acerca</a>
-        <a href="contact.html">contacto</a>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand"></a>
+            <img src="imagenes/pesonal/gustavo.jpg " class="img-thumbnail" width="50" alt="gustavo" />
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item px-4">
+
+                        <a class="nav-link " aria-current="page" href="index.html"><i class="fas fa-home fa-2x"></i> Inicio</a>
+
+
+                    </li>
+                    <li class="nav-item px-4">
+
+                        <a class="nav-link active" aria-current="page" href="about.html"> <i class="fas fa-address-card fa-2x"></i> Acerca</a>
+
+                    </li>
+                    <li class="nav-item px-4">
+
+                        <a class="nav-link" aria-current="page" href="contact.html"> <i class="fas fa-phone fa-2x"></i> Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
     </nav>
 
-    <section>
-        <h2>Mas informacion del Autor:</h2>
-        <article>
-            <h3><strong>Donde estudio</strong></h3>
-
-            <p>Soy estudiante de Ingenieria de Sistemas en la Universidad Nacional de Cajamarca.</p>
-            <br>
-            <img src="https://scontent.ftru6-1.fna.fbcdn.net/v/t1.6435-9/83892312_917376105404804_7228602170176700416_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHh1QXJ-LA6VZsYSh6JJyhkjoTi8-oTvDuOhOLz6hO8O6b56-z_daAhddrS_251ExrFpmRD1y7JgytMzM5ssET4&_nc_ohc=w5_Y6RzOe-sAX8f4xfW&_nc_ht=scontent.ftru6-1.fna&oh=9149c7ac74607e63a2a98046f616f237&oe=61435012"
-                alt="Gustavo" title="foto Anibal Horna" height="100">
-
-            <img src="https://www.unc.edu.pe/wp-content/uploads/2021/02/NOTILOGO.png" title="UNC" height="100">
-
-        </article>
-
-        <article>
-            <h3><strong>Pasatiempos</strong></h3>
-
-            <p> Mis pasatiempos son: tocar la guitarra y jugar videojuegos.</p>
-            <br>
-            <img src="https://losinstrumentosmusicales.net/wp-content/uploads/2018/03/guitarra-destacada-r-1024x683.jpeg" title="guitarra" height="100">
-            <img src="https://daemoniaca.mx/wp-content/uploads/2020/08/IMG_20200828_112039-scaled.jpg" title="juegos" height="100">
-
-        </article>
-
-        <article>
-            <h3><strong>De donde soy</strong></h3>
-            <p> Soy de un centro poblado llamado "Lic Lic", que está ubicado en la Provincia de San Marcos, Cajamarca Actualmente me encuetro en dicho lugar.</p>
-            <br>
-            <img src="https://scontent.ftru6-2.fna.fbcdn.net/v/t1.6435-9/138943352_775948273001782_6854372557073540427_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeGFZVkcWF8k7mC0qoKYaJ0vf6JhHtuwbaV_omEe27BtpRBUMrlR9bD8_MO7CAdNhoZU5a1iAqdv8_eDlL9RyFWs&_nc_ohc=VLzetNHU3RAAX-MjqWa&_nc_ht=scontent.ftru6-2.fna&oh=4a5827249b8a049e828ea9ab7d3de1eb&oe=614242F1"
-                title="Lic Lic" height="100">
-        </article>
-
-        <article>
-            <h3><strong>Lugares que he visitado</strong></h3>
-
-            <p> Los lugares que he visitado son: El cerro Chimboyoc, El rio Crisnejas, entre otros lugares aledaños a mi comunidad.</p>
-            <br>
-            <img src="https://scontent.ftru6-1.fna.fbcdn.net/v/t1.6435-9/99156585_609627816300496_3330603102024761344_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeHVS9ESjvmqjR27FtHeOha-A_7T_-GlS4wD_tP_4aVLjKiuYpaz9QHcjgUGpFsnjlbMNmHKhRM1P--gw_wt-jZP&_nc_ohc=7HGPcNpgt48AX9oCE_w&_nc_ht=scontent.ftru6-1.fna&oh=66bfb296bd351cfcb70a4e3b1365c2c0&oe=6143C071"
-                title="cerro" height="100">
-            <img src="http://4.bp.blogspot.com/-MD8_v3OaNeE/Te1TFt00mbI/AAAAAAAAACQ/pPqFtElTAH0/s1600/JDFHK.JPG" title="rio" height="100">
-        </article>
-
-        <article>
-            <h3><strong>Comidas favoritas</strong></h3>
-            <p> Mis comidas favoritas son: El cuy con papas, El trigo seco, El Chiclayo.</p>
-            <br>
-            <img src="https://decomidaperuana.com/wp-content/uploads/2020/03/cuy-chactado.jpg" title="cuy" height="100">
-            <img src="https://i.ytimg.com/vi/mpk1ficnvX0/hqdefault.jpg" title="Chiclayo" height="100">
-
-        </article>
+    <div class="redes">
+        <a class="d-flex justify-content-center" href="https://web.facebook.com/gustavo.hc.9822?_rdc=1&_rdr"><i class="fab fa-facebook fa-2x"></i></a>
+        <a class="d-flex justify-content-center" href="mailto:ahornac17_1@unc.edu.pe"><i class="fas fa-envelope fa-2x"></i></a>
+        <a class="d-flex justify-content-center" href=" https://wa.me/51912445854"><i class="fab fa-whatsapp fa-2x"></i></a>
+        <a class="d-flex justify-content-center" href="https://web.facebook.com/gustavo.hc.9822?_rdc=1&_rdr"><i class="fab fa-facebook-messenger fa-2x"></i></a>
 
 
-    </section>
+    </div>
+    <br>
+
+    <div class="container p-3 mb-2 bg-secondary text-white">
+        <div class="row align-items-start">
+            <div class="col-lg-6 bg-dark p-3">
+
+                <h3 class="text-center">Donde estudio</h3>
+                <p class="text-center">Soy estudiante de Ingenieria de Sistemas en la Universidad Nacional de Cajamarca</p>
+
+                <div id="ca0" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#ca0" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#ca0" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#ca0" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/logos/unc.png" class="d-block w-100" height="400" alt="unc">
+                        </div>
+
+                        <div class="carousel-item ">
+                            <img src="imagenes/pesonal/gustavo2.jpg" class="d-block w-100" height="400" alt="gustavo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/pesonal/gustavo.jpg" class="d-block w-100" height="400" alt="gustavo">
+                        </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#ca0" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#ca0" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+
+                <h3 class="text-center">Pasatiempos</h3>
+                <p class="text-center">Mis pasatiempos son: tocar la guitarra y jugar videojuegos.</p>
+
+                <div id="ca1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#ca1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#ca1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/pesonal/guitarra.jpg" class="d-block w-100" height="400" alt="guitarra">
+                        </div>
+
+                        <div class="carousel-item ">
+                            <img src="imagenes/pesonal/juego.jpg" class="d-block w-100" height="400" alt="juego">
+                        </div>
+
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#ca1" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#ca1" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container">
+
+        <div class="row align-items-start">
+            <div class="col-lg-4 col-md-12 col-sm-12 bg-dark text-white p-3 mb-2">
+                <div>
+                    <h3 class="text-center">De donde soy</h3>
+                    <p class="text-center">Soy de un centro poblado llamado "Lic Lic", que está ubicado en la Provincia de San Marcos.</p>
+
+                </div>
+                <div id="ca2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#ca2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#ca2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/lugares/liclic.jpg" class="d-block w-100" height="400" alt="liclic">
+                        </div>
+
+                        <div class="carousel-item ">
+                            <img src="imagenes/lugares/cerro2.jpg" class="d-block w-100" height="400" alt="cerro">
+                        </div>
+
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#ca2" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#ca2" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div>
+                    <h3 class="text-center">Lugares que he visitado</h3>
+                    <p class="text-center">Los lugares que he visitado son: El cerro Chimboyoc, El rio Crisnejas.
+
+                </div>
+
+
+                <div id="ca3" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#ca3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#ca3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/lugares/cerro.jpg" class="d-block w-100" height="400" alt="cerro">
+                        </div>
+
+                        <div class="carousel-item ">
+                            <img src="imagenes/lugares/rio.jpg" class="d-block w-100" height="400" alt="rio">
+                        </div>
+
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#ca3" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#ca3" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12 bg-dark text-white p-3 mb-2">
+                <div>
+                    <h3 class="text-center">Comidas favoritas</h3>
+                    <p class="text-center">Mis comidas favoritas son: El cuy con papas, El trigo seco, El Chiclayo.</p>
+                </div>
+
+                <div id="ca4" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#ca4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#ca4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/comidas/cuy.jpg" class="d-block w-100" height="400" alt="cuy">
+                        </div>
+
+                        <div class="carousel-item ">
+                            <img src="imagenes/comidas/chiclayo.jpg" class="d-block w-100" height="400" alt="chiclayo">
+                        </div>
+
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#ca4" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#ca4" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
 
     <footer class="clase_f">
         <p>&copy;Anibal Horna</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 
 </body>
 

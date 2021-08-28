@@ -8,45 +8,124 @@
     <title>Inicio</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos/estilopersonal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
 </head>
 
-<body>
+<body class="p-3 mb-2 bg-primary text-white">
 
-    <header class="clase_h">
-        <h1>Bienvenido a mi sitio web!!</h1>
+    <header>
+        <h1 class="text-center">Bienvenido a mi sitio web!! </h1>
     </header>
 
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="about.html">acerca</a>
-        <a href="contact.html">contacto</a>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand"></a>
+            <img src="imagenes/pesonal/gustavo.jpg " class="img-thumbnail" width="50" alt="gustavo" />
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item px-4">
+
+                        <a class="nav-link active" aria-current="page" href="index.html"><i class="fas fa-home fa-2x"></i> Inicio</a>
+
+
+                    </li>
+                    <li class="nav-item px-4">
+
+                        <a class="nav-link" aria-current="page" href="about.html"> <i class="fas fa-address-card fa-2x"></i> Acerca</a>
+
+                    </li>
+                    <li class="nav-item px-4">
+
+                        <a class="nav-link" aria-current="page" href="contact.html"> <i class="fas fa-phone fa-2x"></i> Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
     </nav>
-    <section>
-        <h2>Datos generales</h2>
-        <article>
-            <h3>Nombre</h3>
+    <div class="redes">
+        <a class="d-flex justify-content-center" href="https://web.facebook.com/gustavo.hc.9822?_rdc=1&_rdr"><i class="fab fa-facebook fa-2x"></i></a>
+        <a class="d-flex justify-content-center" href="mailto:ahornac17_1@unc.edu.pe"><i class="fas fa-envelope fa-2x"></i></a>
+        <a class="d-flex justify-content-center" href=" https://wa.me/51912445854"><i class="fab fa-whatsapp fa-2x"></i></a>
+        <a class="d-flex justify-content-center" href="https://web.facebook.com/gustavo.hc.9822?_rdc=1&_rdr"><i class="fab fa-facebook-messenger fa-2x"></i></a>
 
-            <p>Mi nombre es <em>Anibal Gustavo Horna Cotrina</em> </p>
 
-            <img src="https://scontent.ftru6-1.fna.fbcdn.net/v/t1.6435-9/83892312_917376105404804_7228602170176700416_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHh1QXJ-LA6VZsYSh6JJyhkjoTi8-oTvDuOhOLz6hO8O6b56-z_daAhddrS_251ExrFpmRD1y7JgytMzM5ssET4&_nc_ohc=w5_Y6RzOe-sAX8f4xfW&_nc_ht=scontent.ftru6-1.fna&oh=9149c7ac74607e63a2a98046f616f237&oe=61435012"
-                alt="Gustavo" title="foto Anibal Horna" height="200">
+    </div>
+    <br>
+    <div class="container p-3 mb-2 bg-secondary text-white">
+        <div class="row align-items-start">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <h3 class="text-center">Nombre</h3>
+                <p class="text-center">Anibal Gustavo Horna Cotrina</p>
+                <img src="imagenes/pesonal/gustavo.jpg " class="rounded mx-auto d-block" width="200" alt="gustavo" />
+            </div>
 
-        </article>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <h3 class="text-center">Estudio</h3>
+                <p class="text-center">Soy estudiante de Ingenieria de Sistemas</p>
+                <img src="imagenes/logos/cefis.jpeg " class="rounded mx-auto d-block" width="200" height="200" alt="cefis" />
+            </div>
 
-        <article>
-            <h3>Estudio</h3>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <h3 class="text-center">Pais</h3>
+                <p class="text-center">Perú</p>
+                <img src="imagenes/logos/peru.png " class="rounded mx-auto d-block" width="200" height="200" alt="peru" />
+            </div>
 
-            <p>Soy estudiante de <strong>Ingenieria de Sistemas</strong> </p>
 
-            <img src="https://sites.google.com/a/unc.edu.pe/eapis/_/rsrc/1467680525119/config/customLogo.gif?revision=6" alt="Foto" title="SISTEMAS" height="200">
+        </div>
 
-        </article>
-    </section>
+    </div>
+
+    <br>
+
+    <div class="container p-3 mb-2 bg-success">
+        <h3 class="text-center">Conocimientos</h3>
+
+        <div class="row align-items-start">
+            <div class="col-lg-4 col-md-16 col-sm-16">
+
+                <p class="text-center">HTML</p>
+                <img src="imagenes/logos/html.jpeg " class="rounded mx-auto d-block" width="200" height="200" alt="html" />
+            </div>
+
+            <div class="col-lg-4 col-md-16 col-sm-16">
+
+                <p class="text-center">CSS</p>
+                <img src="imagenes/logos/css.png" class="rounded mx-auto d-block" width="200" height="200" alt="css" />
+            </div>
+
+            <div class="col-lg-4 col-md-16 col-sm-16">
+
+                <p class="text-center">C#</p>
+                <img src="imagenes/logos/c.jpg " class="rounded mx-auto d-block" width="200" height="200" alt="c#" />
+            </div>
+
+        </div>
+
+    </div>
 
     <footer class="clase_f">
         <p>&copy;Anibal Horna</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </body>
 
