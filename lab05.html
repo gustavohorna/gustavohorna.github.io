@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contacto</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/estilopersonal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body class="p-3 mb-2 bg-primary text-white">
+
+    <header>
+        <h1 class="text-center">Información de Contacto</h1>
+    </header>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <a class="navbar-brand"></a>
+            <img src="imagenes/pesonal/gustavo.jpg " class="img-thumbnail" width="50" alt="gustavo" />
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item px-4">
+
+                        <a class="nav-link " aria-current="page" href="index.html"><i class="fas fa-home fa-2x"></i> Inicio</a>
+
+
+                    </li>
+                    <li class="nav-item px-4">
+
+                        <a class="nav-link " aria-current="page" href="about.html"> <i class="fas fa-address-card fa-2x"></i> Acerca</a>
+
+                    </li>
+                    <li class="nav-item px-4">
+
+                        <a class="nav-link" aria-current="page" href="contact.html"> <i class="fas fa-phone fa-2x"></i> Contacto</a>
+                    </li>
+
+                    <li class="nav-item px-4">
+
+                        <a class="nav-link active" aria-current="page" href="lab05.html"><i class="fas fa-laptop-code fa-2x"></i> Lab05</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <br>
+
+    <div id="lab5">
+
+        <h3 id="t5">LAB 05: TALLER DE JAVASCRIPT</h3>
+
+        <div class="container">
+            <div class="row align-items-start">
+
+                <div class="col-lg-6 col-md-12 col-sm-12">
+
+                    <div class="caja_a">
+                        Apellidos y Nombres:
+                    </div>
+
+
+                    <input class="caja_d1" type="text" id="apellidos_nombres" placeholder="Ingreso apellidos y nombres">
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <input id="extrar" type="button" value="Extraer">
+
+                    <input id="colorear" type="button" value="Colorear">
+
+                </div>
+
+            </div>
+
+
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="caja_a">
+                        Fecha de nacimiento:
+                    </div>
+                    <input class="caja_d1" type="text" id="fecha" placeholder="ingreso fecha de nacimiento">
+                </div>
+            </div>
+
+            <br>
+
+            <div class="dos">
+
+
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="caja_s">
+                            Apellidos paterno:
+                        </div>
+                        <div class="caja_d">
+                            <input type="text" id="apellido_paterno">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="caja_r">
+                            longitud del apellido:
+                        </div>
+                        <div class="caja_d">
+                            <input type="text" id="long_apellido">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="caja_s">
+                            Apellidos materno:
+                        </div>
+                        <div class="caja_d">
+                            <input type="text" id="apellido_materno">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="caja_r">
+                            Edad:
+                        </div>
+                        <div class="caja_d">
+                            <input type="text" id="edad">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="caja_s">
+                            Nombres:
+                        </div>
+                        <div class="caja_d">
+                            <input type="text" id="nombres">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="caja_r">
+                            Mes en letras:
+                        </div>
+                        <div class="caja_d">
+                            <input type="text" id="mes">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <footer class="clase_f">
+        <p>&copy;Anibal Horna</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</body>
+
+</html>
