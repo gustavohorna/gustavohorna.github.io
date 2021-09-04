@@ -38,17 +38,12 @@ function extraer() {
         document.lab.mes.value = meses_an[separ2[1] - 1];
     }
 
-    if (separ2[1].charAt(0) == 0) {
-        let segundoNumero = separ2[1].charAt(1);
-        let nacimient = new Date(separ2[0] + "/" + segundoNumero + "/" + separ2[2]);
-        edadDate = new Date(Date.now() - nacimient.getTime());
-        ed = Math.abs(edadDate.getUTCFullYear() - 1970);
-        document.lab.edad.value = ed;
+    let nueva_fecha = separ2[2] + "/" + separ2[1] + "/" + separ2[0]
+    let nacimient = new Date(nueva_fecha);
+    edadDate = new Date(Date.now() - nacimient.getTime());
+    ed = Math.abs(edadDate.getUTCFullYear() - 1970);
+    document.lab.edad.value = ed;
 
-    } else {
-        let nacimient = new Date(fecha);
-        edadDate = new Date(Date.now() - nacimient.getTime());
-        ed = Math.abs(edadDate.getUTCFullYear() - 1970);
-        document.lab.edad.value = ed;
-    }
+
+
 }
