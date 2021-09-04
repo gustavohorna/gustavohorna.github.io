@@ -47,3 +47,57 @@ function extraer() {
 
 
 }
+
+
+
+let colo = document.getElementById("colorear");
+
+colo.addEventListener("click", camb_colo);
+
+let cont = 0;
+
+
+
+function camb_colo() {
+
+    if (cont == 0) {
+
+        let a = document.getElementsByClassName("caja_a");
+        for (var i = 0; i < a.length; i++) a[i].style.backgroundColor = "red";
+
+        let b = document.getElementsByClassName("caja_s");
+        for (var i = 0; i < b.length; i++) b[i].style.backgroundColor = "red";
+
+        let c = document.getElementsByClassName("caja_r");
+        for (var i = 0; i < c.length; i++) c[i].style.backgroundColor = "blue";
+
+        let d = document.getElementsByClassName("caja_d1");
+        for (var i = 0; i < d.length; i++) d[i].style.borderColor = "blue";
+
+        let e = document.getElementsByClassName("caja_d");
+        for (var i = 0; i < e.length; i++) e[i].style.borderColor = "blue";
+
+        document.getElementById("colorear").style.backgroundColor = "blue";
+        cont = 1;
+
+    } else {
+
+        let a = document.getElementsByClassName("caja_a");
+        for (var i = 0; i < a.length; i++) a[i].style.backgroundColor = "blue";
+
+        let b = document.getElementsByClassName("caja_s");
+        for (var i = 0; i < b.length; i++) b[i].style.backgroundColor = "blue";
+
+        let c = document.getElementsByClassName("caja_r");
+        for (var i = 0; i < c.length; i++) c[i].style.backgroundColor = "red";
+
+        let d = document.getElementsByClassName("caja_d1");
+        for (var i = 0; i < d.length; i++) d[i].style.borderColor = "red";
+
+        let e = document.getElementsByClassName("caja_d");
+        for (var i = 0; i < e.length; i++) e[i].style.borderColor = "red";
+
+        document.getElementById("colorear").style.backgroundColor = "red";
+        cont = 0;
+    }
+}
